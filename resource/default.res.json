@@ -1,0 +1,85 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,SE_png,PW_png,PY_png,QA_png,RO_png,RS_png,RU_png,RW_png,SA_png,SB_png,SC_png,SD_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "SE_png",
+			"type": "image",
+			"url": "emojis/SE.png"
+		},
+		{
+			"name": "PW_png",
+			"type": "image",
+			"url": "emojis/PW.png"
+		},
+		{
+			"name": "PY_png",
+			"type": "image",
+			"url": "emojis/PY.png"
+		},
+		{
+			"name": "QA_png",
+			"type": "image",
+			"url": "emojis/QA.png"
+		},
+		{
+			"name": "RO_png",
+			"type": "image",
+			"url": "emojis/RO.png"
+		},
+		{
+			"name": "RS_png",
+			"type": "image",
+			"url": "emojis/RS.png"
+		},
+		{
+			"name": "RU_png",
+			"type": "image",
+			"url": "emojis/RU.png"
+		},
+		{
+			"name": "RW_png",
+			"type": "image",
+			"url": "emojis/RW.png"
+		},
+		{
+			"name": "SA_png",
+			"type": "image",
+			"url": "emojis/SA.png"
+		},
+		{
+			"name": "SB_png",
+			"type": "image",
+			"url": "emojis/SB.png"
+		},
+		{
+			"name": "SC_png",
+			"type": "image",
+			"url": "emojis/SC.png"
+		},
+		{
+			"name": "SD_png",
+			"type": "image",
+			"url": "emojis/SD.png"
+		}
+	]
+}
