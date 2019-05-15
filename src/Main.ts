@@ -74,7 +74,28 @@ class Main extends egret.DisplayObjectContainer {
      * Create a game scene
      */
     private createGameScene() {
-        var emoji: egret.EmojiPlugin = new egret.EmojiPlugin([
+        
+        var sheet:egret.EmojiSpriteSheet=new egret.EmojiSpriteSheet('emoji_json')
+        var emoji_animation: egret.EmojiPlugin = new egret.EmojiPlugin(new egret.EmojiAnimationConfig(
+            [
+                { key: 1, res: {tag:'1',sheet:sheet} },
+                { key: 2, res: {tag:'2',sheet:sheet} },
+                { key: 3, res: {tag:'3',sheet:sheet} },
+                { key: 4, res: {tag:'4',sheet:sheet} },
+                { key: 5, res: {tag:'5',sheet:sheet} },
+                { key: 6, res: {tag:'6',sheet:sheet} },
+                { key: 7, res: {tag:'7',sheet:sheet} },
+                { key: 8, res: {tag:'8',sheet:sheet} },
+                { key: 9, res: {tag:'9',sheet:sheet} },
+                { key: 10, res: {tag:'10',sheet:sheet} },
+                { key: 11, res: {tag:'11',sheet:sheet} },
+                { key: 12, res: {tag:'12',sheet:sheet} },
+                { key: 13, res: {tag:'13',sheet:sheet} },
+                { key: 14, res: {tag:'14',sheet:sheet} },
+                { key: 15, res: {tag:'15',sheet:sheet} }
+            ],8,-10));
+
+        var emoji: egret.EmojiPlugin = new egret.EmojiPlugin(new egret.EmojiConfig([
             { key: 1, res: 'PW_png' },
             { key: 2, res: 'PY_png' },
             { key: 3, res: 'QA_png' },
@@ -87,18 +108,56 @@ class Main extends egret.DisplayObjectContainer {
             { key: 10, res: 'SC_png' },
             { key: 11, res: 'SD_png' },
             { key: 12, res: 'SE_png' },
-        ]);
+        ],0,-1));
 
-        let textfield = new egret.RichTextField(emoji);
-        this.addChild(textfield);
-        textfield.width = 250;
-        textfield.textAlign = egret.HorizontalAlign.LEFT;
-        textfield.size = 24;
-        textfield.textColor = 0xffffff;
-        textfield.x = 172;
-        textfield.y = 135;
-        var t=emoji.getSymbol.bind(emoji);
-        textfield.text=`${t(12)}此次${t(8)}的研究结果《表${t(6)}情符号报告》，调${t(1)}查、展示了安卓${t(1)}和苹果用户${t(3)}发短信的习惯${t(10)}。`;
-        textfield.height=textfield.textHeight+5;
+        var t=emoji_animation.getSymbol.bind(emoji_animation);
+        var content:string=`+${t(12)}此次+${t(8)}的研究结果+${t(8)}表${t(6)}情符号报告，调${t(1)}查、展示了安卓${t(1)}和苹果用户${t(3)}发短信的习惯${t(10)}。`
+
+        let textfield1 = new egret.RichTextField(emoji_animation);
+        this.addChild(textfield1);
+        textfield1.width = 250;
+        
+        textfield1.lineSpacing=20;
+        textfield1.size = 24;
+        textfield1.textColor = 0xffffff;
+        textfield1.x = 122;
+        textfield1.y = 135;
+        textfield1.text=content
+        textfield1.height=textfield1.textHeight+5;
+
+        let textfield2 = new egret.RichTextField(emoji_animation);
+        this.addChild(textfield2);
+        textfield2.width = 250;
+        textfield2.lineSpacing=20;
+        textfield2.size = 24;
+        textfield2.textColor = 0xffffff;
+        textfield2.x = 472;
+        textfield2.y = 135;
+        textfield2.bold=true;
+        textfield2.italic=true;
+        textfield2.stroke=3;
+        textfield2.strokeColor=0x0;
+        textfield2.textFlow=[{
+            text:content,
+            style:{
+                textColor:0xffff00
+            }
+        }];
+        textfield2.height=textfield2.textHeight+5;
+
+         let textfield3 = new egret.RichTextField(emoji_animation);
+        this.addChild(textfield3);
+        textfield3.width = 250;      
+        textfield3.lineSpacing=20;
+        textfield3.size = 24;
+        textfield3.textColor = 0xffffff;
+        textfield3.x = 122;
+        textfield3.y = 435;
+        textfield3.bold=true;
+        textfield3.italic=true;
+        textfield3.stroke=3;
+        textfield3.strokeColor=0x0;
+        textfield3.text=`${t(1)}${t(2)}${t(3)}${t(4)}${t(5)}${t(6)}${t(7)}${t(8)}${t(9)}${t(10)}${t(11)}${t(12)}${t(13)}${t(14)}${t(15)}`;
+        textfield3.height=textfield3.textHeight+5;
     }
 }

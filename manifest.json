@@ -8,7 +8,6 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/Emoji.js",
 		"bin-debug/Main.js",
 		"bin-debug/RichTextFiled.js"
 	]

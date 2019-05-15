@@ -8,10 +8,11 @@
             "dom",
             "es2015.promise"
         ],
-        "types": []
+        "types": [],
+        "sourceMap": false
     },
     "include": [
-        "src",
-        "libs"
+        "libs",
+        "src"
     ]
 }
