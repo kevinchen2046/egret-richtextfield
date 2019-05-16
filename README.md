@@ -1,8 +1,8 @@
 # egret-RichTextField
   a RichTextField component for egret game.
-# example
+## example
   https://kevinchen2046.github.io/egret-RichTextField/
-# how to use
+## how to use
   ````javascript
   var emoji_static: egret.EmojiPlugin = new egret.EmojiPlugin(new egret.EmojiConfig([
             { key: 1, res: 'PW_png' },
