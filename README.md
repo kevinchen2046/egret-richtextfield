@@ -3,7 +3,8 @@
 # example
   https://kevinchen2046.github.io/egret-RichTextField/
 # how to use
-  `var emoji_static: egret.EmojiPlugin = new egret.EmojiPlugin(new egret.EmojiConfig([
+  ````javascript
+  var emoji_static: egret.EmojiPlugin = new egret.EmojiPlugin(new egret.EmojiConfig([
             { key: 1, res: 'PW_png' },
             { key: 2, res: 'PY_png' },
             { key: 3, res: 'QA_png' },
@@ -105,4 +106,5 @@
         textfield4.text = getContent(textfield4.emojiPlugin);
         textfield4.height = textfield4.textHeight + 5;
         textfield4.x = this.stage.stageWidth/2+100;
-        textfield4.y = this.stage.stageHeight/2+100;`
+        textfield4.y = this.stage.stageHeight/2+100;
+ ```
