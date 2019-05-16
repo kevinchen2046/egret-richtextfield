@@ -1,0 +1,91 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,SE_png,PW_png,PY_png,QA_png,RO_png,RS_png,RU_png,RW_png,SA_png,SB_png,SC_png,SD_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "emojis/SE.png",
+			"type": "image",
+			"name": "SE_png"
+		},
+		{
+			"url": "emojis/PW.png",
+			"type": "image",
+			"name": "PW_png"
+		},
+		{
+			"url": "emojis/PY.png",
+			"type": "image",
+			"name": "PY_png"
+		},
+		{
+			"url": "emojis/QA.png",
+			"type": "image",
+			"name": "QA_png"
+		},
+		{
+			"url": "emojis/RO.png",
+			"type": "image",
+			"name": "RO_png"
+		},
+		{
+			"url": "emojis/RS.png",
+			"type": "image",
+			"name": "RS_png"
+		},
+		{
+			"url": "emojis/RU.png",
+			"type": "image",
+			"name": "RU_png"
+		},
+		{
+			"url": "emojis/RW.png",
+			"type": "image",
+			"name": "RW_png"
+		},
+		{
+			"url": "emojis/SA.png",
+			"type": "image",
+			"name": "SA_png"
+		},
+		{
+			"url": "emojis/SB.png",
+			"type": "image",
+			"name": "SB_png"
+		},
+		{
+			"url": "emojis/SC.png",
+			"type": "image",
+			"name": "SC_png"
+		},
+		{
+			"url": "emojis/SD.png",
+			"type": "image",
+			"name": "SD_png"
+		},
+		{
+			"url": "emojis/emoji.json",
+			"type": "sheet",
+			"name": "emoji_json",
+			"subkeys": "10_frame_0000,10_frame_0001,10_frame_0002,10_frame_0003,10_frame_0004,10_frame_0005,10_frame_0006,10_frame_0007,10_frame_0008,10_frame_0009,10_frame_0010,10_frame_0011,10_frame_0012,10_frame_0013,10_frame_0014,10_frame_0015,10_frame_0016,10_frame_0017,10_frame_0018,10_frame_0019,10_frame_0020,10_frame_0021,10_frame_0022,10_frame_0023,10_frame_0024,10_frame_0025,10_frame_0026,10_frame_0027,10_frame_0028,10_frame_0029,10_frame_0030,10_frame_0031,10_frame_0032,10_frame_0033,10_frame_0034,10_frame_0035,10_frame_0036,11_frame_0000,11_frame_0001,11_frame_0002,11_frame_0003,11_frame_0004,11_frame_0005,11_frame_0006,11_frame_0007,11_frame_0008,11_frame_0009,11_frame_0010,11_frame_0011,11_frame_0012,11_frame_0013,11_frame_0014,11_frame_0015,11_frame_0016,11_frame_0017,11_frame_0018,11_frame_0019,11_frame_0020,11_frame_0021,12_frame_0000,12_frame_0001,12_frame_0002,12_frame_0003,12_frame_0004,12_frame_0005,12_frame_0006,12_frame_0007,12_frame_0008,12_frame_0009,12_frame_0010,12_frame_0011,12_frame_0012,12_frame_0013,12_frame_0014,12_frame_0015,12_frame_0016,12_frame_0017,12_frame_0018,12_frame_0019,12_frame_0020,12_frame_0021,12_frame_0022,12_frame_0023,12_frame_0024,12_frame_0025,12_frame_0026,12_frame_0027,12_frame_0028,12_frame_0029,12_frame_0030,12_frame_0031,12_frame_0032,12_frame_0033,12_frame_0034,12_frame_0035,13_frame_0000,13_frame_0001,13_frame_0002,13_frame_0003,13_frame_0004,13_frame_0005,13_frame_0006,13_frame_0007,13_frame_0008,13_frame_0009,13_frame_0010,13_frame_0011,13_frame_0012,13_frame_0013,13_frame_0014,13_frame_0015,13_frame_0016,13_frame_0017,13_frame_0018,14_frame_0000,14_frame_0001,14_frame_0002,14_frame_0003,14_frame_0004,14_frame_0005,14_frame_0006,14_frame_0007,14_frame_0008,14_frame_0009,14_frame_0010,14_frame_0011,14_frame_0012,14_frame_0013,14_frame_0014,14_frame_0015,14_frame_0016,14_frame_0017,14_frame_0018,14_frame_0019,14_frame_0020,14_frame_0021,14_frame_0022,14_frame_0023,14_frame_0024,14_frame_0025,14_frame_0026,14_frame_0027,14_frame_0028,14_frame_0029,14_frame_0030,14_frame_0031,14_frame_0032,14_frame_0033,14_frame_0034,14_frame_0035,14_frame_0036,14_frame_0037,14_frame_0038,14_frame_0039,14_frame_0040,14_frame_0041,14_frame_0042,14_frame_0043,14_frame_0044,14_frame_0045,14_frame_0046,14_frame_0047,14_frame_0048,14_frame_0049,14_frame_0050,14_frame_0051,14_frame_0052,14_frame_0053,14_frame_0054,15_frame_0000,15_frame_0001,15_frame_0002,15_frame_0003,15_frame_0004,1_frame_0000,1_frame_0001,1_frame_0002,1_frame_0003,1_frame_0004,1_frame_0005,1_frame_0006,1_frame_0007,1_frame_0008,1_frame_0009,1_frame_0010,1_frame_0011,1_frame_0012,1_frame_0013,1_frame_0014,1_frame_0015,1_frame_0016,1_frame_0017,1_frame_0018,1_frame_0019,1_frame_0020,1_frame_0021,1_frame_0022,1_frame_0023,1_frame_0024,1_frame_0025,1_frame_0026,1_frame_0027,1_frame_0028,2_frame_0000,2_frame_0001,2_frame_0002,2_frame_0003,2_frame_0004,2_frame_0005,2_frame_0006,3_frame_0000,3_frame_0001,3_frame_0002,3_frame_0003,3_frame_0004,3_frame_0005,3_frame_0006,3_frame_0007,4_frame_0000,4_frame_0001,4_frame_0002,4_frame_0003,4_frame_0004,4_frame_0005,4_frame_0006,4_frame_0007,4_frame_0008,4_frame_0009,4_frame_0010,4_frame_0011,4_frame_0012,4_frame_0013,4_frame_0014,4_frame_0015,4_frame_0016,4_frame_0017,4_frame_0018,4_frame_0019,4_frame_0020,4_frame_0021,4_frame_0022,4_frame_0023,4_frame_0024,4_frame_0025,4_frame_0026,4_frame_0027,4_frame_0028,4_frame_0029,4_frame_0030,4_frame_0031,4_frame_0032,4_frame_0033,4_frame_0034,5_frame_0000,5_frame_0001,5_frame_0002,5_frame_0003,5_frame_0004,5_frame_0005,5_frame_0006,5_frame_0007,5_frame_0008,5_frame_0009,5_frame_0010,5_frame_0011,5_frame_0012,5_frame_0013,5_frame_0014,5_frame_0015,5_frame_0016,5_frame_0017,5_frame_0018,5_frame_0019,6_frame_0000,6_frame_0001,6_frame_0002,6_frame_0003,6_frame_0004,6_frame_0005,6_frame_0006,6_frame_0007,6_frame_0008,6_frame_0009,6_frame_0010,6_frame_0011,6_frame_0012,6_frame_0013,6_frame_0014,6_frame_0015,6_frame_0016,6_frame_0017,7_frame_0000,7_frame_0001,7_frame_0002,7_frame_0003,7_frame_0004,7_frame_0005,7_frame_0006,7_frame_0007,7_frame_0008,7_frame_0009,7_frame_0010,7_frame_0011,7_frame_0012,7_frame_0013,7_frame_0014,7_frame_0015,7_frame_0016,7_frame_0017,7_frame_0018,7_frame_0019,7_frame_0020,7_frame_0021,7_frame_0022,7_frame_0023,7_frame_0024,7_frame_0025,7_frame_0026,7_frame_0027,7_frame_0028,7_frame_0029,7_frame_0030,7_frame_0031,7_frame_0032,7_frame_0033,7_frame_0034,7_frame_0035,7_frame_0036,7_frame_0037,7_frame_0038,7_frame_0039,7_frame_0040,7_frame_0041,7_frame_0042,7_frame_0043,7_frame_0044,7_frame_0045,7_frame_0046,7_frame_0047,7_frame_0048,7_frame_0049,7_frame_0050,7_frame_0051,7_frame_0052,7_frame_0053,7_frame_0054,7_frame_0055,7_frame_0056,7_frame_0057,7_frame_0058,7_frame_0059,7_frame_0060,7_frame_0061,7_frame_0062,7_frame_0063,7_frame_0064,7_frame_0065,7_frame_0066,7_frame_0067,7_frame_0068,8_frame_0000,8_frame_0001,8_frame_0002,8_frame_0003,8_frame_0004,9_frame_0000,9_frame_0001,9_frame_0002,9_frame_0003,9_frame_0004,9_frame_0005,9_frame_0006,9_frame_0007,9_frame_0008,9_frame_0009,9_frame_0010,9_frame_0011"
+		}
+	]
+}
