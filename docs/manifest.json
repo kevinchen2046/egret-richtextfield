@@ -8,7 +8,6 @@
 		"js/promise.min_83a6a5d.js"
 	],
 	"game": [
-		"js/app_52da1628.js",
 		"js/main.min_5368e9b5.js"
 	]
 }
