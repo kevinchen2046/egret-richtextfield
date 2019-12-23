@@ -1,8 +1,8 @@
 # egret-RichTextField
-  a RichTextField component for egret game.
-## example
+  基于白鹭引擎的富文本RichTextField控件
+## 例子
   https://kevinchen2046.github.io/egret-RichTextField/
-## how to use
+## 如何使用
   ````javascript
   var emoji_static: egret.EmojiPlugin = new egret.EmojiPlugin(new egret.EmojiConfig([
             { key: 1, res: 'PW_png' },
