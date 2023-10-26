@@ -1,7 +1,7 @@
 # egret-RichTextField
   基于白鹭引擎的富文本RichTextField控件
 ## 例子
-  https://kevinchen2046.github.io/demo/egret-RichTextField/
+  https://kevinchen2046.github.io/page/egret-richtextfield/
 ## 如何使用
   ````javascript
   var emoji_static: egret.EmojiPlugin = new egret.EmojiPlugin(new egret.EmojiConfig([
